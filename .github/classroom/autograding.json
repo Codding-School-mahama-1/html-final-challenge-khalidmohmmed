@@ -1,8 +1,8 @@
 {
   "tests": [
     {
-      "name": "Homepage exists (index.html)",
-      "run": "test -f index.html",
+      "name": "Homepage exists (homepage.html)",
+      "run": "test -f homepage.html",
       "points": 5
     },
     {
@@ -17,27 +17,27 @@
     },
     {
       "name": "Homepage has About section with id",
-      "run": "grep -qi 'id=\"about\"' index.html",
+      "run": "grep -qi 'id=\"about\"' homepage.html",
       "points": 5
     },
     {
       "name": "Homepage has Contact section with id",
-      "run": "grep -qi 'id=\"contact\"' index.html",
+      "run": "grep -qi 'id=\"contact\"' homepage.html",
       "points": 5
     },
     {
       "name": "Homepage has iframe",
-      "run": "grep -qi '<iframe' index.html",
+      "run": "grep -qi '<iframe' homepage.html",
       "points": 5
     },
     {
       "name": "Homepage has form",
-      "run": "grep -qi '<form' index.html",
+      "run": "grep -qi '<form' homepage.html",
       "points": 5
     },
     {
       "name": "Homepage has table",
-      "run": "grep -qi '<table' index.html",
+      "run": "grep -qi '<table' homepage.html",
       "points": 5
     },
     {
